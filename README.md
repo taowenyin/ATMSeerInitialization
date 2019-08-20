@@ -2,7 +2,7 @@
 
 [ATMSeer](https://github.com/HDI-Project/ATMSeer)安装方法
 
-[传统安装方法](./README.md)
+[传统安装方法](./Normal.md)
 
 > 此安装方法，截止到2019-08-20，ATM的版本为0.10
 
