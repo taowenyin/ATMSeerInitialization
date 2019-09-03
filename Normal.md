@@ -8,66 +8,72 @@
 
 #### 5、sudo sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 
-#### 6、sudo apt-get update
+#### 6、sudo add-apt-repository ppa:apt-fast/stable
 
-#### 7、sudo apt-get upgrade
+#### 7、sudo apt-get update
 
-#### 8、sudo add-apt-repository ppa:jonathonf/python-3.6
+#### 8、sudo apt-get install apt-fast
 
-#### 9、sudo apt-get update
+#### 9、sudo apt-fast update
 
-#### 10、sudo apt-get install python3.6 python3.6-dev python3.6-gdbm
+#### 10、sudo apt-fast upgrade
 
-#### 11、sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1
+#### 11、sudo add-apt-repository ppa:jonathonf/python-3.6
 
-#### 12、sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+#### 12、sudo apt-fast update
 
-#### 13、curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+#### 13、sudo apt-fast install python3.6 python3.6-dev python3.6-gdbm
 
-#### 14、python get-pip.py --user
+#### 14、sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1
 
-#### 15、pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+#### 15、sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
 
-#### 16、sudo apt-get install gcc g++ build-essential
+#### 16、curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 
-#### 17、curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+#### 17、python get-pip.py --user
 
-#### 18、source .bashrc
+#### 18、pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
-#### 19、nvm install node
+#### 19、sudo apt-fast install gcc g++ build-essential
 
-#### 20、npm config set registry https://registry.npm.taobao.org
+#### 20、curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
-#### 21、wget https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb
+#### 21、source .bashrc
 
-#### 22、sudo dpkg -i mysql-apt-config_0.8.13-1_all.deb
+#### 22、nvm install node
 
-#### 23、sudo apt-get update
+#### 23、npm config set registry https://registry.npm.taobao.org
 
-#### 24、sudo apt-get -y install mysql-server sqlite3 libmysqlclient-dev
+#### 24、wget https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb
 
-#### 25、pip install virtualenv --user
+#### 25、sudo dpkg -i mysql-apt-config_0.8.13-1_all.deb
 
-#### 26、cd /vagrant/
+#### 26、sudo apt-fast update
 
-#### 27、mkdir ATM
+#### 27、sudo apt-fast -y install mysql-server sqlite3 libmysqlclient-dev
 
-#### 28、cd ATM
+#### 28、pip install virtualenv --user
 
-#### 29、virtualenv -p $(which python3.6) atm-venv
+#### 29、cd /vagrant/
 
-#### 30、source atm-venv/bin/activate
+#### 30、mkdir ATM
 
-#### 31、pip install atm
+#### 31、cd ATM
 
-#### 32、pip install Flask-Cors
+#### 32、virtualenv -p $(which python3.6) atm-venv
 
-#### 33、pip install requests
+#### 33、source atm-venv/bin/activate
 
-#### 34、git clone https://github.com/HDI-Project/ATMSeer.git
+#### 34、pip install atm
 
-#### 35、pip install -r ATMSeer/server/requirements.txt
+#### 35、pip install Flask-Cors
 
-#### 36、npm install
+#### 36、pip install requests
 
-#### 37、分两个窗口，一个窗口运行./startserver.sh，另一个窗口运行npm start
+#### 37、git clone https://github.com/HDI-Project/ATMSeer.git
+
+#### 38、pip install -r ATMSeer/server/requirements.txt
+
+#### 39、npm install
+
+#### 40、分两个窗口，一个窗口运行./startserver.sh，另一个窗口运行npm start
