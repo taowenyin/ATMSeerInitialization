@@ -8,13 +8,13 @@
 
 #### 5、sudo sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 
-#### 6、sudo add-apt-repository ppa:apt-fast/stable
+#### 6、sudo apt-get update
 
-#### 7、sudo apt-get update
+#### 7、sudo add-apt-repository ppa:apt-fast/stable
 
-#### 8、sudo apt-get install apt-fast
+#### 8、sudo apt-get update
 
-#### 9、sudo apt-fast update
+#### 9、sudo apt-get install apt-fast
 
 #### 10、sudo apt-fast upgrade
 
